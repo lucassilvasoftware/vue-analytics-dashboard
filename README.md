@@ -1,26 +1,24 @@
-# análise.
-![image](https://github.com/LucasReb/frontend-analise/assets/54152996/aa84f321-69c3-44e7-b8b4-e2f8ed5f0649)
-> Finalizado ✅
-This template should help get you started developing with Vue 3 in Vite.
+# análise. — frontend
+
+Interface web **Vue 3** com **Vite** para visualização e exploração de dados do ecossistema “análise.”: gráficos (ApexCharts), roteamento, estado com Pinia e integração HTTP com o backend.
 
 ## Requisitos
 
-- Node.js;
-- Vue.js
-- Vite
+- Node.js (LTS recomendado)
+- npm ou yarn
 
-## Como rodar o projeto:
-
-## Instalar
+## Como executar
 
 ```bash
-$ npm install
+npm install
+npm run dev
 ```
 
-## Rodar no modo desenvolvimento
+O servidor de desenvolvimento do Vite exibirá a URL local (porta típica **5173**). Ajuste variáveis de ambiente ou proxy, se o backend estiver em outra origem.
+
+Build para produção:
 
 ```bash
-# development
-$ npm run dev
+npm run build
+npm run preview
 ```
-Com isso o servidor será aberto no localhost
