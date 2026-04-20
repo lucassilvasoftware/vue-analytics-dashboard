@@ -28,3 +28,16 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+*.tsbuildinfo
